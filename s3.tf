@@ -7,7 +7,11 @@ resource "aws_s3_bucket_public_access_block" "terraform-s3-bucket-15-06-1991" {
 
   block_public_acls   = true
   block_public_policy = false
-# my changes competed 
+# new tasks are added 
+  
+  AWs s3 pipleline { 
+  }
+  
 
 }
 
